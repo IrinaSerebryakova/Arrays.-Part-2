@@ -44,7 +44,7 @@ public class Main {
         for (int expense : expenses) {
             sum2 += expense;
         }
-        arithmeticMean = sum/4;
+        arithmeticMean = sum2/expenses2.length;
         System.out.printf("Средняя сумма трат за месяц составила %.2f рублей\n", arithmeticMean);
 
         /*    Теперь бухгалтерия хочет понять, какую в среднем сумму компания тратила еженедельно.
